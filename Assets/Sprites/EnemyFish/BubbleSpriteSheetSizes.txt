@@ -1,0 +1,5 @@
+Bubble 3  = 77 x 317
+
+Bubble 2  = 202 x 888
+
+Bubble 1  = 205 x 872
