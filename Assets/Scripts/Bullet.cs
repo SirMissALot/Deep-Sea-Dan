@@ -5,18 +5,22 @@ using UnityEngine;
 public class Bullet : MonoBehaviour {
 
 	private float speed = 10f;
-	public bool isActive;
-	private Vector3 direction;
+	private bool isActive;
+	private Vector2 direction;
+	private Vector2 origPos;
+
 	void Awake(){
 		isActive = false;
+		origPos = transform.position;
 	}
 	void Update(){
 		if(isActive){
-			transform.Translate(direction * speed * Time.deltaTime);
+			transform.rotation = Quaternion.LookRotation(Vector3.forward, direction);
+			transform.Translate(direction * speed * Time.deltaTime, Space.World);
 		}
 	}
 
-	public void Fire(Transform Player, Vector3 shootDir){
+	public void Fire(Transform Player, Vector2 shootDir){
 		transform.position = Player.position;
 		direction = shootDir;
 		isActive = true;

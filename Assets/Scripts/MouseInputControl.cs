@@ -27,14 +27,14 @@ public class MouseInputControl : MonoBehaviour {
 
                 targetPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
                 targetPos.z = transform.position.z;
-                Debug.Log(targetPos);
 
                 //--------------------------------
-                // TODO: Check if breaks somewhere
+                // TODO: Check if it breaks somewhere
                 //--------------------------------
                 if(transform.position.magnitude > targetPos.magnitude){
                    
                     pm.bulletPool[pm.currentBullet].GetComponent<Bullet>().Fire(transform, (targetPos - transform.position).normalized);
+                    Debug.Log((targetPos - transform.position).normalized);
 
                 }
 
@@ -48,7 +48,7 @@ public class MouseInputControl : MonoBehaviour {
                        pm.currentBullet = 0;
                    }
             }
-        // Moves the ship towards the mouse click
+
         if(isActive){
             transform.position = Vector3.MoveTowards(transform.position, mousePos, speed * Time.deltaTime);
         }
