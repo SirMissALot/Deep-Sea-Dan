@@ -12,7 +12,7 @@ public class Bullet : MonoBehaviour {
 	}
 	void Update(){
 		if(isActive){
-			transform.Translate((transform.position + direction * speed) * Time.deltaTime);
+			transform.Translate(direction * speed * Time.deltaTime);
 		}
 	}
 
@@ -20,5 +20,9 @@ public class Bullet : MonoBehaviour {
 		transform.position = Player.position;
 		direction = shootDir;
 		isActive = true;
+	}
+
+	void OnCollisionEnter2D(Collision2D other){
+		
 	}
 }

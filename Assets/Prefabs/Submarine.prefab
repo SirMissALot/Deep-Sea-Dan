@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4216808525765882}
   - component: {fileID: 212780264189303162}
-  - component: {fileID: 114457111767602316}
+  - component: {fileID: 114079146611552348}
   m_Layer: 8
   m_Name: Submarine
   m_TagString: Player
@@ -41,7 +41,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114457111767602316
+--- !u!114 &114079146611552348
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
