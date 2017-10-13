@@ -34,11 +34,11 @@ public class MouseInputControl : MonoBehaviour {
                 if(transform.position.magnitude > targetPos.magnitude){
                    
                     pm.bulletPool[pm.currentBullet].GetComponent<Bullet>().Fire(transform, (targetPos - transform.position).normalized);
-                    Debug.Log((targetPos - transform.position).normalized);
 
                 }
 
                 else{
+                    
                     pm.bulletPool[pm.currentBullet].GetComponent<Bullet>().Fire(transform, -(transform.position - targetPos).normalized);
                   
                 }

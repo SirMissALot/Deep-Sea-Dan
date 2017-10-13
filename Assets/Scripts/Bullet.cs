@@ -5,13 +5,16 @@ using UnityEngine;
 public class Bullet : MonoBehaviour {
 
 	private float speed = 10f;
+	private int damage = 1;
 	private bool isActive;
 	private Vector2 direction;
 	private Vector2 origPos;
+	private Quaternion origRot;
 
 	void Awake(){
 		isActive = false;
 		origPos = transform.position;
+		origRot = transform.rotation;
 	}
 	void Update(){
 		if(isActive){
@@ -26,7 +29,9 @@ public class Bullet : MonoBehaviour {
 		isActive = true;
 	}
 
-	void OnCollisionEnter2D(Collision2D other){
-		
+	void OnTriggerEnter2D(Collider2D other){	
+			isActive = false;
+			transform.position = origPos;
+			transform.rotation = origRot;
 	}
 }
