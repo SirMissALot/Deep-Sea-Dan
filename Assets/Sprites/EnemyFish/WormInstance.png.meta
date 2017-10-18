@@ -1,9 +1,37 @@
 fileFormatVersion: 2
 guid: 2005728e8cbb326498556a9b36a3c50f
-timeCreated: 1507675297
+timeCreated: 1508195202
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: WormInstance_0
+    21300002: WormInstance_1
+    21300004: WormInstance_2
+    21300006: WormInstance_3
+    21300008: WormInstance_4
+    21300010: WormInstance_5
+    21300012: WormInstance_6
+    21300014: WormInstance_7
+    21300016: WormInstance_8
+    21300018: WormInstance_9
+    21300020: WormInstance_10
+    21300022: WormInstance_11
+    21300024: WormInstance_12
+    21300026: WormInstance_13
+    21300028: WormInstance_14
+    21300030: WormInstance_15
+    21300032: WormInstance_16
+    21300034: WormInstance_17
+    21300036: WormInstance_18
+    21300038: WormInstance_19
+    21300040: WormInstance_20
+    21300042: WormInstance_21
+    21300044: WormInstance_22
+    21300046: WormInstance_23
+    21300048: WormInstance_24
+    21300050: WormInstance_25
+    21300052: WormInstance_26
+    21300054: WormInstance_27
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -27,14 +55,14 @@ TextureImporter:
   textureFormat: 1
   maxTextureSize: 2048
   textureSettings:
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -58,9 +86,405 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: WormInstance_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 921
+        width: 42
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WormInstance_1
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 921
+        width: 42
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WormInstance_2
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 921
+        width: 45
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WormInstance_3
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 921
+        width: 47
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WormInstance_4
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 921
+        width: 49
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WormInstance_5
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 921
+        width: 51
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WormInstance_6
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 921
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WormInstance_7
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 818
+        width: 57
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WormInstance_8
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 818
+        width: 59
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WormInstance_9
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 818
+        width: 59
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WormInstance_10
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 818
+        width: 56
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WormInstance_11
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 818
+        width: 48
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WormInstance_12
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 818
+        width: 42
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WormInstance_13
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 715
+        width: 48
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WormInstance_14
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 715
+        width: 51
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WormInstance_15
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 715
+        width: 49
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WormInstance_16
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 715
+        width: 46
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WormInstance_17
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 715
+        width: 42
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WormInstance_18
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 715
+        width: 42
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WormInstance_19
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 715
+        width: 42
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WormInstance_20
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 612
+        width: 48
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WormInstance_21
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 612
+        width: 50
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WormInstance_22
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 612
+        width: 56
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WormInstance_23
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 612
+        width: 51
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WormInstance_24
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 612
+        width: 48
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WormInstance_25
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 612
+        width: 46
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WormInstance_26
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 612
+        width: 46
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WormInstance_27
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 509
+        width: 54
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 

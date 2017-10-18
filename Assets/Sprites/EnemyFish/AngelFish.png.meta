@@ -1,9 +1,11 @@
 fileFormatVersion: 2
 guid: 14e45e71498a03a47a17491659e83908
-timeCreated: 1507675297
+timeCreated: 1508192389
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: AngelFish_0
+    21300002: AngelFish_1
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -27,23 +29,23 @@ TextureImporter:
   textureFormat: 1
   maxTextureSize: 2048
   textureSettings:
-    filterMode: -1
+    filterMode: 2
     aniso: -1
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteBorder: {x: 0, y: 359, z: 94, w: 0}
   spritePixelsToUnits: 100
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: -1
+  spriteTessellationDetail: 0
   textureType: 8
   textureShape: 1
   maxTextureSizeSet: 0
@@ -58,10 +60,159 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
-    outline: []
+    sprites:
+    - serializedVersion: 2
+      name: AngelFish_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 359
+        width: 160
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AngelFish_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 206
+        width: 159
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline:
+    - - {x: -60, y: 105}
+      - {x: -105, y: 90}
+      - {x: -90, y: 47}
+      - {x: -85, y: 36}
+      - {x: -107, y: 57}
+      - {x: -117, y: 60}
+      - {x: -122, y: 57}
+      - {x: -128, y: 36}
+      - {x: -128, y: -52}
+      - {x: 0, y: -52}
+      - {x: 34, y: 0}
+      - {x: 34, y: 99}
+      - {x: 29, y: 105}
+    - - {x: 3, y: 8}
+      - {x: -1, y: 12}
+      - {x: -3, y: 12}
+      - {x: -7, y: 8}
+      - {x: -7, y: 4}
+      - {x: -5, y: 3}
+      - {x: -5, y: 11}
+      - {x: -9, y: 17}
+      - {x: -10, y: 17}
+      - {x: -4, y: 10}
+      - {x: -3, y: 10}
+      - {x: 0, y: 13}
+      - {x: 0, y: 15}
+      - {x: -1, y: 19}
+      - {x: -3, y: 23}
+      - {x: -4, y: 22}
+      - {x: -1, y: 13}
+      - {x: 2, y: 10}
+      - {x: 3, y: 11}
+      - {x: 2, y: 3}
+      - {x: 3, y: 3}
+    - - {x: 13, y: 19}
+      - {x: 12, y: 20}
+      - {x: 10, y: 11}
+      - {x: 11, y: 2}
+      - {x: 12, y: 3}
+    - - {x: -15, y: 13}
+      - {x: -15, y: 12}
+      - {x: -12, y: 10}
+      - {x: -12, y: 11}
+    - - {x: 3, y: 55}
+      - {x: 10, y: 51}
+      - {x: 11, y: 49}
+      - {x: 11, y: 50}
+    - - {x: -78, y: 256}
+      - {x: -88, y: 234}
+      - {x: -90, y: 200}
+      - {x: -120, y: 225}
+      - {x: -128, y: 195}
+      - {x: -128, y: 132}
+      - {x: -116, y: 101}
+      - {x: -20, y: 101}
+      - {x: 35, y: 113}
+      - {x: 35, y: 256}
+    - - {x: 2, y: 162}
+      - {x: -1, y: 165}
+      - {x: -3, y: 165}
+      - {x: -6, y: 162}
+      - {x: -5, y: 157}
+      - {x: -5, y: 164}
+      - {x: -9, y: 170}
+      - {x: -10, y: 170}
+      - {x: -4, y: 163}
+      - {x: -3, y: 163}
+      - {x: 0, y: 166}
+      - {x: 0, y: 168}
+      - {x: -1, y: 172}
+      - {x: -3, y: 176}
+      - {x: -4, y: 175}
+      - {x: -1, y: 166}
+      - {x: 2, y: 163}
+      - {x: 3, y: 164}
+      - {x: 2, y: 156}
+      - {x: 3, y: 156}
+    - - {x: 13, y: 172}
+      - {x: 12, y: 173}
+      - {x: 10, y: 164}
+      - {x: 11, y: 155}
+      - {x: 12, y: 156}
+    - - {x: -15, y: 166}
+      - {x: -15, y: 165}
+      - {x: -12, y: 163}
+      - {x: -12, y: 164}
+    - - {x: 9, y: 204}
+      - {x: 5, y: 207}
+      - {x: 11, y: 200}
+      - {x: 17, y: 195}
+      - {x: 17, y: 197}
   spritePackingTag: 
   userData: 
   assetBundleName: 
