@@ -4,18 +4,36 @@ using UnityEngine;
 
 public class Worm : MonoBehaviour {
 
-	// Use this for initialization
-	Vector2 numb;
-	Vector2 bumnl;
+	public int health = 10;
+	private Animator anim;
+	private Sprite currentSprite;
 
-	void Start () {
-		numb = GetComponent<SpriteRenderer>().sprite.rect.size;
-		bumnl = numb/GetComponent<SpriteRenderer>().sprite.pixelsPerUnit;
-		
+	void Start(){
+		currentSprite = GetComponent<Sprite>();
+		anim = GetComponent<Animator>();
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		Debug.Log(bumnl);
+
+	void Update(){
+		if(health <= 0){
+			Destroy(gameObject);
+		}
+		if(currentSprite != GetComponent<SpriteRenderer>().sprite){
+  			currentSprite = GetComponent<SpriteRenderer>().sprite;
+			updateCollider();
+		}
 	}
+	void OnTriggerEnter2D(Collider2D other){
+		health--;
+		Debug.Log("Hit");
+	}
+
+	void animationEnd(){
+		anim.SetBool("isAttacking", false);
+	}
+
+	void updateCollider(){
+		gameObject.GetComponent<BoxCollider2D>().size = gameObject.GetComponent<SpriteRenderer>().sprite.bounds.size;
+		gameObject.GetComponent<BoxCollider2D>().offset = gameObject.GetComponent<SpriteRenderer>().sprite.bounds.center;
+	}
+
 }

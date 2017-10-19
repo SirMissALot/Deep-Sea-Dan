@@ -13,5 +13,6 @@ public class AngelFish : MonoBehaviour {
 	}
 	void OnTriggerEnter2D(Collider2D other){
 		health--;
+		Debug.Log("Hit");
 	}
 }
